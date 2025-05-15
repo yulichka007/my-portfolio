@@ -8,12 +8,13 @@ export default function MyCity() {
 
  
   const cityPhotos = [
-    '/lokhvytsia1.jpg',
-    '/lokhvytsia2.jpg',
-    '/lokhvytsia3.jpg',
-    '/lokhvytsia4.jpg',
-    '/lokhvytsia5.jpg'
+    process.env.PUBLIC_URL + '/lokhvytsia1.jpg',
+    process.env.PUBLIC_URL + '/lokhvytsia2.jpg',
+    process.env.PUBLIC_URL + '/lokhvytsia3.jpg',
+    process.env.PUBLIC_URL + '/lokhvytsia4.jpg',
+    process.env.PUBLIC_URL + '/lokhvytsia5.jpg'
   ];
+  
 
   useEffect(() => {
     const loadWeather = async () => {

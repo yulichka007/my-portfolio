@@ -19,7 +19,7 @@ export default function AboutMe() {
         
         <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginBottom: '2rem' }}>
           <img 
-            src="/profile.jpg" 
+            src={process.env.PUBLIC_URL + '/profile.jpg'} 
             alt="Юлія Мотрич"
             style={{
               width: '150px',
